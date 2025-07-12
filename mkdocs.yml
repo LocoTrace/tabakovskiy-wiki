@@ -13,15 +13,56 @@ theme:
     - content.code.copy
 
 nav:
-  - Введение:
-      - Что важно знать новичку: docs/Введение/Что важно знать новичку.md
-  - Инструкции:
-      - Касса и учёт: docs/Инструкции/Касса.md
-      - Продажи: docs/Инструкции/Продажи.md
-  - Товары:
-      - Жидкости: docs/Товары/Жидкости.md
-      - Устройства: docs/Товары/Устройства.md
-
+    - FAQ:
+      - FAQ: docs/FAQ/FAQ.md
+      - Kontakty_i_podderzhka: docs/FAQ/Kontakty_i_podderzhka.md
+      - Nuzhdy_tochki: docs/FAQ/Nuzhdy_tochki.md
+    - Instruktsii:
+      - Kassa_i_uchet:
+        - Priemka_tovara_cherez_Evotor: docs/Instruktsii/Kassa_i_uchet/Priemka_tovara_cherez_Evotor.md
+        - Priemka_tovara_—_protsess: docs/Instruktsii/Kassa_i_uchet/Priemka_tovara_—_protsess.md
+        - Rabota_s_kassoi_i_priemkoi: docs/Instruktsii/Kassa_i_uchet/Rabota_s_kassoi_i_priemkoi.md
+        - Rabota_s_kassoi_—_bazovye_deistviya: docs/Instruktsii/Kassa_i_uchet/Rabota_s_kassoi_—_bazovye_deistviya.md
+        - Rabota_s_zhurnalom: docs/Instruktsii/Kassa_i_uchet/Rabota_s_zhurnalom.md
+      - Obsluzhivanie:
+        - Grafik_i_zameny: docs/Instruktsii/Obsluzhivanie/Grafik_i_zameny.md
+        - NNP_—_Ne_Nachislenie_Premii: docs/Instruktsii/Obsluzhivanie/NNP_—_Ne_Nachislenie_Premii.md
+        - Obshchenie_s_klientami: docs/Instruktsii/Obsluzhivanie/Obshchenie_s_klientami.md
+        - Otkrytie_tochki: docs/Instruktsii/Obsluzhivanie/Otkrytie_tochki.md
+      - Prodazhi:
+        - Bazovaya_tekhnika_prodazh: docs/Instruktsii/Prodazhi/Bazovaya_tekhnika_prodazh.md
+        - Prodazhi_—_glavnoe: docs/Instruktsii/Prodazhi/Prodazhi_—_glavnoe.md
+        - Tekhniki_prodazh_—_ustroistva_i_odnorazki: docs/Instruktsii/Prodazhi/Tekhniki_prodazh_—_ustroistva_i_odnorazki.md
+        - Tekhniki_prodazh_—_zhidkosti: docs/Instruktsii/Prodazhi/Tekhniki_prodazh_—_zhidkosti.md
+      - Tochka_i_poryadok:
+        - Chistota_i_poryadok: docs/Instruktsii/Tochka_i_poryadok/Chistota_i_poryadok.md
+      - Instruktsii_Glavnaya: docs/Instruktsii/Instruktsii_Glavnaya.md
+    - Obuchenie:
+      - Kak_stat_top-prodavtsom: docs/Obuchenie/Kak_stat_top-prodavtsom.md
+    - Tovary:
+      - Zhidkosti:
+        - Bryzgi: docs/Tovary/Zhidkosti/Bryzgi.md
+        - Catswill: docs/Tovary/Zhidkosti/Catswill.md
+        - Catswill_Sour: docs/Tovary/Zhidkosti/Catswill_Sour.md
+        - CHROME: docs/Tovary/Zhidkosti/CHROME.md
+        - DUALL: docs/Tovary/Zhidkosti/DUALL.md
+        - GREKh_Kh_Samoubiitsy: docs/Tovary/Zhidkosti/GREKh_Kh_Samoubiitsy.md
+        - MONSTER: docs/Tovary/Zhidkosti/MONSTER.md
+        - PODONKI_Arcade: docs/Tovary/Zhidkosti/PODONKI_Arcade.md
+        - PODONKI_Isterika: docs/Tovary/Zhidkosti/PODONKI_Isterika.md
+        - RELL_Green: docs/Tovary/Zhidkosti/RELL_Green.md
+        - Rick_and_Morty_Bad_Ice: docs/Tovary/Zhidkosti/Rick_and_Morty_Bad_Ice.md
+        - Rick_and_Morty_Zamerzone: docs/Tovary/Zhidkosti/Rick_and_Morty_Zamerzone.md
+        - Sayonara_Skidonov: docs/Tovary/Zhidkosti/Sayonara_Skidonov.md
+        - SKALA: docs/Tovary/Zhidkosti/SKALA.md
+        - Synd_Labs_Blackout: docs/Tovary/Zhidkosti/Synd_Labs_Blackout.md
+        - Toyz_Cyber: docs/Tovary/Zhidkosti/Toyz_Cyber.md
+      - Novinki_mesyatsa: docs/Tovary/Novinki_mesyatsa.md
+      - Ustroistva: docs/Tovary/Ustroistva.md
+      - Zhidkosti: docs/Tovary/Zhidkosti.md
+    - Vvedenie:
+      - Chto_vazhno_znat_novichku: docs/Vvedenie/Chto_vazhno_znat_novichku.md
+    - Baza_Tabakovskogo: docs/Baza_Tabakovskogo.md
 markdown_extensions:
   - toc:
       permalink: true

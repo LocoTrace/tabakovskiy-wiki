@@ -2,15 +2,18 @@ from pathlib import Path
 import re
 
 def generate_nav_structure(base_dir: Path, docs_prefix="docs") -> str:
+    """Return YAML navigation for given directory."""
     def walk_dir(path: Path, indent: int = 2) -> str:
         yaml = ""
         items = sorted(path.iterdir(), key=lambda p: (not p.is_dir(), p.name.lower()))
         for item in items:
+            if item.name.startswith('.'):
+                continue
             prefix = "  " * indent
             if item.is_dir():
                 yaml += f"{prefix}- {item.name}:\n"
                 yaml += walk_dir(item, indent + 1)
-            elif item.suffix == ".md":
+            elif item.suffix.lower() == ".md":
                 relative_path = f"{docs_prefix}/{item.relative_to(base_dir).as_posix()}"
                 yaml += f"{prefix}- {item.stem}: {relative_path}\n"
         return yaml
@@ -30,8 +33,8 @@ def replace_nav_block(yml_path: Path, new_nav: str):
     print("✅ nav обновлён в mkdocs.yml")
 
 def main():
-    base = Path("base")
-    nav_yaml = generate_nav_structure(base)
+    docs = Path("docs")
+    nav_yaml = generate_nav_structure(docs)
     mkdocs_path = Path("mkdocs.yml")
 
     replace_nav_block(mkdocs_path, nav_yaml)
