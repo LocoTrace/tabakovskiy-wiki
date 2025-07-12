@@ -1,0 +1,35 @@
+site_name: Табаковский — База знаний
+
+theme:
+  name: material
+  language: ru
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.top
+    - navigation.instant
+    - content.code.copy
+
+nav:
+  - Введение:
+      - Что важно знать новичку: docs/Введение/Что важно знать новичку.md
+  - Инструкции:
+      - Касса и учёт: docs/Инструкции/Касса.md
+      - Продажи: docs/Инструкции/Продажи.md
+  - Товары:
+      - Жидкости: docs/Товары/Жидкости.md
+      - Устройства: docs/Товары/Устройства.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.details
+  - pymdownx.tabbed

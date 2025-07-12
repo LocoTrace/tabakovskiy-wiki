@@ -1,0 +1,12 @@
+{
+  "obsidian-pandoc:pandoc-export-markdown": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "M"
+    }
+  ]
+}
