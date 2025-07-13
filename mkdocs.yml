@@ -1,76 +1,135 @@
-site_name: Табаковский — База знаний
-
-theme:
-  name: material
-  language: ru
-  palette:
-    scheme: slate
-    primary: indigo
-    accent: indigo
-  features:
-    - navigation.top
-    - navigation.instant
-    - content.code.copy
-
-nav:
-    - FAQ:
-      - FAQ: docs/FAQ/FAQ.md
-      - Kontakty_i_podderzhka: docs/FAQ/Kontakty_i_podderzhka.md
-      - Nuzhdy_tochki: docs/FAQ/Nuzhdy_tochki.md
-    - Instruktsii:
-      - Kassa_i_uchet:
-        - Priemka_tovara_cherez_Evotor: docs/Instruktsii/Kassa_i_uchet/Priemka_tovara_cherez_Evotor.md
-        - Priemka_tovara_—_protsess: docs/Instruktsii/Kassa_i_uchet/Priemka_tovara_—_protsess.md
-        - Rabota_s_kassoi_i_priemkoi: docs/Instruktsii/Kassa_i_uchet/Rabota_s_kassoi_i_priemkoi.md
-        - Rabota_s_kassoi_—_bazovye_deistviya: docs/Instruktsii/Kassa_i_uchet/Rabota_s_kassoi_—_bazovye_deistviya.md
-        - Rabota_s_zhurnalom: docs/Instruktsii/Kassa_i_uchet/Rabota_s_zhurnalom.md
-      - Obsluzhivanie:
-        - Grafik_i_zameny: docs/Instruktsii/Obsluzhivanie/Grafik_i_zameny.md
-        - NNP_—_Ne_Nachislenie_Premii: docs/Instruktsii/Obsluzhivanie/NNP_—_Ne_Nachislenie_Premii.md
-        - Obshchenie_s_klientami: docs/Instruktsii/Obsluzhivanie/Obshchenie_s_klientami.md
-        - Otkrytie_tochki: docs/Instruktsii/Obsluzhivanie/Otkrytie_tochki.md
-      - Prodazhi:
-        - Bazovaya_tekhnika_prodazh: docs/Instruktsii/Prodazhi/Bazovaya_tekhnika_prodazh.md
-        - Prodazhi_—_glavnoe: docs/Instruktsii/Prodazhi/Prodazhi_—_glavnoe.md
-        - Tekhniki_prodazh_—_ustroistva_i_odnorazki: docs/Instruktsii/Prodazhi/Tekhniki_prodazh_—_ustroistva_i_odnorazki.md
-        - Tekhniki_prodazh_—_zhidkosti: docs/Instruktsii/Prodazhi/Tekhniki_prodazh_—_zhidkosti.md
-      - Tochka_i_poryadok:
-        - Chistota_i_poryadok: docs/Instruktsii/Tochka_i_poryadok/Chistota_i_poryadok.md
-      - Instruktsii_Glavnaya: docs/Instruktsii/Instruktsii_Glavnaya.md
-    - Obuchenie:
-      - Kak_stat_top-prodavtsom: docs/Obuchenie/Kak_stat_top-prodavtsom.md
-    - Tovary:
-      - Zhidkosti:
-        - Bryzgi: docs/Tovary/Zhidkosti/Bryzgi.md
-        - Catswill: docs/Tovary/Zhidkosti/Catswill.md
-        - Catswill_Sour: docs/Tovary/Zhidkosti/Catswill_Sour.md
-        - CHROME: docs/Tovary/Zhidkosti/CHROME.md
-        - DUALL: docs/Tovary/Zhidkosti/DUALL.md
-        - GREKh_Kh_Samoubiitsy: docs/Tovary/Zhidkosti/GREKh_Kh_Samoubiitsy.md
-        - MONSTER: docs/Tovary/Zhidkosti/MONSTER.md
-        - PODONKI_Arcade: docs/Tovary/Zhidkosti/PODONKI_Arcade.md
-        - PODONKI_Isterika: docs/Tovary/Zhidkosti/PODONKI_Isterika.md
-        - RELL_Green: docs/Tovary/Zhidkosti/RELL_Green.md
-        - Rick_and_Morty_Bad_Ice: docs/Tovary/Zhidkosti/Rick_and_Morty_Bad_Ice.md
-        - Rick_and_Morty_Zamerzone: docs/Tovary/Zhidkosti/Rick_and_Morty_Zamerzone.md
-        - Sayonara_Skidonov: docs/Tovary/Zhidkosti/Sayonara_Skidonov.md
-        - SKALA: docs/Tovary/Zhidkosti/SKALA.md
-        - Synd_Labs_Blackout: docs/Tovary/Zhidkosti/Synd_Labs_Blackout.md
-        - Toyz_Cyber: docs/Tovary/Zhidkosti/Toyz_Cyber.md
-      - Novinki_mesyatsa: docs/Tovary/Novinki_mesyatsa.md
-      - Ustroistva: docs/Tovary/Ustroistva.md
-      - Zhidkosti: docs/Tovary/Zhidkosti.md
-    - Vvedenie:
-      - Chto_vazhno_znat_novichku: docs/Vvedenie/Chto_vazhno_znat_novichku.md
-    - Baza_Tabakovskogo: docs/Baza_Tabakovskogo.md
-markdown_extensions:
-  - toc:
-      permalink: true
-  - admonition
-  - codehilite
-  - footnotes
-  - tables
-  - pymdownx.superfences
-  - pymdownx.highlight
-  - pymdownx.details
-  - pymdownx.tabbed
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
+diff --git a/mkdocs.yml b/mkdocs.yml
+index df18f4ba3af2d9c137fd205e0a39172cd61e9215..090f5dbefe39e23c1d7e0a229270f20122a41bdb 100644
+--- a/mkdocs.yml
++++ b/mkdocs.yml
+@@ -1,76 +1,77 @@
+ site_name: Табаковский — База знаний
+ 
+ theme:
+   name: material
+   language: ru
+   palette:
+     scheme: slate
+     primary: indigo
+     accent: indigo
+   features:
+     - navigation.top
+     - navigation.instant
+     - content.code.copy
+ 
+ nav:
+     - FAQ:
+-      - FAQ: docs/FAQ/FAQ.md
+-      - Kontakty_i_podderzhka: docs/FAQ/Kontakty_i_podderzhka.md
+-      - Nuzhdy_tochki: docs/FAQ/Nuzhdy_tochki.md
+-    - Instruktsii:
+-      - Kassa_i_uchet:
+-        - Priemka_tovara_cherez_Evotor: docs/Instruktsii/Kassa_i_uchet/Priemka_tovara_cherez_Evotor.md
+-        - Priemka_tovara_—_protsess: docs/Instruktsii/Kassa_i_uchet/Priemka_tovara_—_protsess.md
+-        - Rabota_s_kassoi_i_priemkoi: docs/Instruktsii/Kassa_i_uchet/Rabota_s_kassoi_i_priemkoi.md
+-        - Rabota_s_kassoi_—_bazovye_deistviya: docs/Instruktsii/Kassa_i_uchet/Rabota_s_kassoi_—_bazovye_deistviya.md
+-        - Rabota_s_zhurnalom: docs/Instruktsii/Kassa_i_uchet/Rabota_s_zhurnalom.md
+-      - Obsluzhivanie:
+-        - Grafik_i_zameny: docs/Instruktsii/Obsluzhivanie/Grafik_i_zameny.md
+-        - NNP_—_Ne_Nachislenie_Premii: docs/Instruktsii/Obsluzhivanie/NNP_—_Ne_Nachislenie_Premii.md
+-        - Obshchenie_s_klientami: docs/Instruktsii/Obsluzhivanie/Obshchenie_s_klientami.md
+-        - Otkrytie_tochki: docs/Instruktsii/Obsluzhivanie/Otkrytie_tochki.md
+-      - Prodazhi:
+-        - Bazovaya_tekhnika_prodazh: docs/Instruktsii/Prodazhi/Bazovaya_tekhnika_prodazh.md
+-        - Prodazhi_—_glavnoe: docs/Instruktsii/Prodazhi/Prodazhi_—_glavnoe.md
+-        - Tekhniki_prodazh_—_ustroistva_i_odnorazki: docs/Instruktsii/Prodazhi/Tekhniki_prodazh_—_ustroistva_i_odnorazki.md
+-        - Tekhniki_prodazh_—_zhidkosti: docs/Instruktsii/Prodazhi/Tekhniki_prodazh_—_zhidkosti.md
+-      - Tochka_i_poryadok:
+-        - Chistota_i_poryadok: docs/Instruktsii/Tochka_i_poryadok/Chistota_i_poryadok.md
+-      - Instruktsii_Glavnaya: docs/Instruktsii/Instruktsii_Glavnaya.md
+-    - Obuchenie:
+-      - Kak_stat_top-prodavtsom: docs/Obuchenie/Kak_stat_top-prodavtsom.md
+-    - Tovary:
+-      - Zhidkosti:
+-        - Bryzgi: docs/Tovary/Zhidkosti/Bryzgi.md
+-        - Catswill: docs/Tovary/Zhidkosti/Catswill.md
+-        - Catswill_Sour: docs/Tovary/Zhidkosti/Catswill_Sour.md
+-        - CHROME: docs/Tovary/Zhidkosti/CHROME.md
+-        - DUALL: docs/Tovary/Zhidkosti/DUALL.md
+-        - GREKh_Kh_Samoubiitsy: docs/Tovary/Zhidkosti/GREKh_Kh_Samoubiitsy.md
+-        - MONSTER: docs/Tovary/Zhidkosti/MONSTER.md
+-        - PODONKI_Arcade: docs/Tovary/Zhidkosti/PODONKI_Arcade.md
+-        - PODONKI_Isterika: docs/Tovary/Zhidkosti/PODONKI_Isterika.md
+-        - RELL_Green: docs/Tovary/Zhidkosti/RELL_Green.md
+-        - Rick_and_Morty_Bad_Ice: docs/Tovary/Zhidkosti/Rick_and_Morty_Bad_Ice.md
+-        - Rick_and_Morty_Zamerzone: docs/Tovary/Zhidkosti/Rick_and_Morty_Zamerzone.md
+-        - Sayonara_Skidonov: docs/Tovary/Zhidkosti/Sayonara_Skidonov.md
+-        - SKALA: docs/Tovary/Zhidkosti/SKALA.md
+-        - Synd_Labs_Blackout: docs/Tovary/Zhidkosti/Synd_Labs_Blackout.md
+-        - Toyz_Cyber: docs/Tovary/Zhidkosti/Toyz_Cyber.md
+-      - Novinki_mesyatsa: docs/Tovary/Novinki_mesyatsa.md
+-      - Ustroistva: docs/Tovary/Ustroistva.md
+-      - Zhidkosti: docs/Tovary/Zhidkosti.md
+-    - Vvedenie:
+-      - Chto_vazhno_znat_novichku: docs/Vvedenie/Chto_vazhno_znat_novichku.md
+-    - Baza_Tabakovskogo: docs/Baza_Tabakovskogo.md
++      - 🧭 FAQ — Часто задаваемые вопросы и ситуации: FAQ/FAQ.md
++      - 📞 Контакты и поддержка: FAQ/Контакты и поддержка.md
++      - 🧾 Закупка хозтоваров / непредвиденных мелочей: FAQ/Нужды точки.md
++    - Введение:
++      - 👋 Добро пожаловать в «Табаковский»: Введение/Что важно знать новичку.md
++    - Инструкции:
++      - Касса и учёт:
++        - 🧾 Приёмка товара через Эвотор: Инструкции/Касса и учёт/Приёмка товара через Эвотор.md
++        - 📦 Приёмка товара — процесс: Инструкции/Касса и учёт/Приёмка товара — процесс.md
++        - 📓 Работа с журналом: Инструкции/Касса и учёт/Работа с журналом.md
++        - Ошибки при приёмке (важно!): Инструкции/Касса и учёт/Работа с кассой и приёмкой.md
++        - 💳 Работа с кассой — базовые действия: Инструкции/Касса и учёт/Работа с кассой — базовые действия.md
++      - Обслуживание:
++        - 📆 График и замены: Инструкции/Обслуживание/График и замены.md
++        - 🚫 ННП — штрафы и красные флаги: Инструкции/Обслуживание/ННП — Не Начисление Премии.md
++        - 💬 Общение с клиентами: Инструкции/Обслуживание/Общение с клиентами.md
++        - Открытие точки: Инструкции/Обслуживание/Открытие точки.md
++      - Продажи:
++        - 🧭 Базовая техника продаж: Инструкции/Продажи/Базовая техника продаж.md
++        - 📌 Основы: Инструкции/Продажи/Продажи — главное.md
++        - 💧 Техники продаж — жидкости: Инструкции/Продажи/Техники продаж — жидкости.md
++        - 🔋 Техники продаж — устройства и одноразки: Инструкции/Продажи/Техники продаж — устройства и одноразки.md
++      - Точка и порядок:
++        - 🧼 Чистота и порядок на точке: Инструкции/Точка и порядок/Чистота и порядок.md
++      - 📘 Инструкции и стандарты: Инструкции/Инструкции Главная.md
++    - Обучение:
++      - Как стать топ-продавцом: Обучение/Как стать топ-продавцом.md
++    - Товары:
++      - Жидкости:
++        - Bryzgi: Товары/Жидкости/Bryzgi.md
++        - Catswill: Товары/Жидкости/Catswill.md
++        - Catswill Sour: Товары/Жидкости/Catswill_Sour.md
++        - CHROME: Товары/Жидкости/CHROME.md
++        - DUALL: Товары/Жидкости/DUALL.md
++        - MONSTER: Товары/Жидкости/MONSTER.md
++        - PODONKI Arcade: Товары/Жидкости/PODONKI_Arcade.md
++        - PODONKI Isterika: Товары/Жидкости/PODONKI_Isterika.md
++        - RELL Green: Товары/Жидкости/RELL_Green.md
++        - Rick and Morty Bad Ice: Товары/Жидкости/Rick_and_Morty_Bad_Ice.md
++        - Rick and Morty Замерзоне: Товары/Жидкости/Rick_and_Morty_Замерзоне.md
++        - Sayonara Skidonov: Товары/Жидкости/Sayonara_Skidonov.md
++        - SKALA: Товары/Жидкости/SKALA.md
++        - Synd Labs Blackout: Товары/Жидкости/Synd_Labs_Blackout.md
++        - Toyz Cyber: Товары/Жидкости/Toyz_Cyber.md
++        - ГРЕХ Х Самоубийцы: Товары/Жидкости/ГРЕХ_Х_Самоубийцы.md
++      - 💧 Жидкости — Общее описание: Товары/Жидкости.md
++      - Новинки месяца: Товары/Новинки месяца.md
++      - Устройства: Товары/Устройства.md
++    - 🛠 Codex Task — MkDocs Setup for "Табаковский": CODEX_TASK.md
++    - 🧭 База Табаковского: База_Табаковского.md
+ markdown_extensions:
+   - toc:
+       permalink: true
+   - admonition
+   - codehilite
+   - footnotes
+   - tables
+   - pymdownx.superfences
+   - pymdownx.highlight
+   - pymdownx.details
+   - pymdownx.tabbed
+ 
+EOF
+)
