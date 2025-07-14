@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "8ae01354a16b80ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9de65429fb312dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0fba8bcbeb75accf",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "58582941257fc54b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "160a737d4983001f",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "4ae0883d6dbff7b1",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "f3d94e5c130af9f2",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "777ef3becbc582d7",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "96153d7bc031950f",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "86465411c0381175",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "0c9a303c32648301",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "a27d30a39475a545",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "База Табаковского/Инструкции/Продажи/График и замены.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "160a737d4983001f",
+  "lastOpenFiles": [
+    "FAQ.md/Нужды точки.md",
+    "FAQ.md/Контакты и поддержка.md",
+    "FAQ.md/🧭 FAQ.md",
+    "FAQ.md",
+    "Товары/Жидкости/Synd_Labs_Blackout.md",
+    "Товары/Жидкости/Rick_and_Morty_Bad_Ice.md",
+    "Товары/Жидкости/ГРЕХ_Х_Самоубийцы.md",
+    "Товары/Жидкости/Rick_and_Morty_Замерзоне.md",
+    "Товары/Жидкости/Toyz_Cyber.md",
+    "Товары/Жидкости/PODONKI_Isterika.md",
+    "Товары/Жидкости/PODONKI_Arcade.md",
+    "Товары/Жидкости/CHROME.md",
+    "Товары/Жидкости/SKALA.md",
+    "Товары/Жидкости/MONSTER.md",
+    "Товары/Жидкости/Bryzgi.md",
+    "Товары/Жидкости/RELL_Green.md",
+    "Товары/Жидкости/Sayonara_Skidonov.md",
+    "Товары/Жидкости/Catswill.md",
+    "Товары/Жидкости/Catswill_Sour.md",
+    "Товары/Жидкости/DUALL.md",
+    "Товары/Жидкости",
+    "Товары/Новинки месяца.md",
+    "Товары/Устройства.md",
+    "Товары/Жидкости.md",
+    "Товары",
+    "Обучение/Как стать топ-продавцом.md",
+    "Обучение",
+    "Untitled.md",
+    "Маркетинг",
+    "Инструкции/Обслуживание/ННП — Не Начисление Премии.md",
+    "Инструкции/Обслуживание",
+    "Инструкции/Точка и порядок",
+    "Инструкции/Касса и учёт",
+    "Инструкции/Продажи",
+    "Инструкции/Новая папка 2",
+    "Инструкции"
+  ]
+}
