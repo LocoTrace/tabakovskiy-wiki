@@ -17,11 +17,14 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
 
       - name: Build site
-        run: npx quartz build
+        run: pnpm run quartz build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
