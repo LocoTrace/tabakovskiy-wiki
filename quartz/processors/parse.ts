@@ -105,6 +105,22 @@ export function createFileParser(ctx: BuildCtx, fps: FilePath[]) {
         file.data.slug = slugifyFilePath(file.data.relativePath)
 
         const ast = processor.parse(file)
+        // Извлекаем первый заголовок (heading depth 1) из AST
+        let firstHeading = undefined
+        if (ast && Array.isArray(ast.children)) {
+          for (const node of ast.children) {
+            if (node.type === "heading" && node.depth === 1 && Array.isArray(node.children)) {
+              firstHeading = node.children
+                .filter((c) => c.type === "text" && typeof (c as any).value === "string")
+                .map((c) => (c as any).value)
+                .join("")
+              break
+            }
+          }
+        }
+        if (firstHeading) {
+          file.data.firstHeading = firstHeading
+        }
         const newAst = await processor.run(ast, file)
         res.push([newAst, file])
 

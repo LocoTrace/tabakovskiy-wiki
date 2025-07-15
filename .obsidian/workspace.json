@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "6f1d7fa7fc281efe",
+    "type": "split",
+    "children": [
+      {
+        "id": "5023c12cacbad087",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10a1bf238d110965",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7475ee541a976248",
+    "type": "split",
+    "children": [
+      {
+        "id": "847f08c97327c3b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf71a09f4b5e5c9d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c0569e7e49fa2a04",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9cddd675a7541a99",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "30e2876f89348574",
+    "type": "split",
+    "children": [
+      {
+        "id": "85b49894e5b80544",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9e5af2491e1104e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "32a252a7d8f354ed",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "b0b9db38d76c24a5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "75a4819215f8167e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "cf71a09f4b5e5c9d",
+  "lastOpenFiles": [
+    "public/Товары/Устройства-og-image.webp",
+    "public/Товары/Новинки-месяца-og-image.webp",
+    "public/Товары/Жидкости/ГРЕХ_Х_Самоубийцы-og-image.webp",
+    "public/Товары/Жидкости/Toyz_Cyber-og-image.webp",
+    "public/Товары/Жидкости/Synd_Labs_Blackout-og-image.webp",
+    "public/Товары/Жидкости/Sayonara_Skidonov-og-image.webp",
+    "public/Товары/Жидкости/SKALA-og-image.webp",
+    "public/Товары/Жидкости/Rick_and_Morty_Замерзоне-og-image.webp",
+    "public/Товары/Жидкости/Rick_and_Morty_Bad_Ice-og-image.webp",
+    "public/Товары/Жидкости/RELL_Green-og-image.webp",
+    "public/Товары/Жидкости/PODONKI_Isterika-og-image.webp",
+    "public/Товары/Жидкости/ГРЕХ_Х_Самоубийцы.html",
+    "public/Товары/Жидкости/Toyz_Cyber.html",
+    "public/Товары/Жидкости/Synd_Labs_Blackout.html",
+    "public/Товары/Жидкости/SKALA.html",
+    "public/Товары/Жидкости/Sayonara_Skidonov.html",
+    "public/Товары/Жидкости/Rick_and_Morty_Замерзоне.html",
+    "public/Товары/Жидкости/Rick_and_Morty_Bad_Ice.html",
+    "public/Товары/Жидкости/RELL_Green.html",
+    "public/Товары/Жидкости/PODONKI_Isterika.html",
+    "public/Товары/Жидкости/PODONKI_Arcade.html",
+    "public/FAQ.md",
+    "node_modules/hast-util-to-jsx-runtime/readme.md",
+    "node_modules/pretty-bytes/readme.md",
+    "node_modules/pretty-time/README.md",
+    "node_modules/@napi-rs/simple-git/README.md",
+    "node_modules/shiki/README.md",
+    "node_modules/@emnapi/runtime/README.md",
+    "content/Инструкции/index.md",
+    "node_modules/sass/README.md",
+    "node_modules/reusify/README.md",
+    "node_modules/remark-math/readme.md",
+    "node_modules/remark-frontmatter/readme.md",
+    "node_modules/rehype-pretty-code/README.md",
+    "node_modules/rehype-parse/readme.md",
+    "node_modules/path-type/readme.md",
+    "node_modules/path-parse/README.md",
+    "node_modules/mdast-util-newline-to-break/readme.md",
+    "node_modules/mdast-util-gfm-autolink-literal/readme.md",
+    "node_modules/mathjax-full/README.md",
+    "node_modules/mathjax-full/CONTRIBUTING.md",
+    "node_modules/rxjs/CODE_OF_CONDUCT.md",
+    "node_modules/rxjs/CHANGELOG.md",
+    "node_modules/typescript/README.md",
+    "node_modules/speech-rule-engine/lib/README.md",
+    "node_modules/@citation-js/core/README.md"
+  ]
+}
