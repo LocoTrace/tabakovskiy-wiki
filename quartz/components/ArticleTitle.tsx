@@ -3,14 +3,15 @@ import { classNames } from "../util/lang"
 
 const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const title = fileData.frontmatter?.title
-  const isIndex = fileData.slug === "index" || fileData.slug?.endsWith("/index")
+
+  const slug = fileData.slug ?? ""
+  const isIndex = slug === "index" || slug.endsWith("/index")
   if (title && title !== "index") {
+    
     return <h1 class={classNames(displayClass, "article-title")}>{title}</h1>
-  } else if (isIndex && fileData.firstHeading) {
-    return <h1 class={classNames(displayClass, "article-title")}>{fileData.firstHeading}</h1>
-  } else {
-    return null;
   }
+
+  return null
 }
 
 ArticleTitle.css = `

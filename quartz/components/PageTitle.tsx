@@ -19,7 +19,9 @@ PageTitle.css = `
   margin: 0;
   font-family: var(--titleFont);
   flex-shrink: 0;
+  
   white-space: nowrap;
+
 }
 `
 
