@@ -15,7 +15,9 @@ li.section-li {
 
     @media all and ($mobile) {
       & > .tags {
-        display: none;
+        display: flex;
+        margin-top: 0.25rem;
+        flex-wrap: wrap;
       }
     }
 
@@ -35,6 +37,8 @@ li.section-li {
   grid-template-columns: fit-content(8em) 1fr !important;
 
   & > .tags {
-    display: none;
+    display: flex;
+    margin-top: 0.25rem;
+    flex-wrap: wrap;
   }
 }
