@@ -3,20 +3,11 @@ import { classNames } from "../util/lang"
 
 const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const title = fileData.frontmatter?.title
+
   const slug = fileData.slug ?? ""
   const isIndex = slug === "index" || slug.endsWith("/index")
-
-  if (isIndex) {
-    if (fileData.firstHeading) {
-      return <h1 class={classNames(displayClass, "article-title")}>{fileData.firstHeading}</h1>
-    } else if (title && title !== "index") {
-      return <h1 class={classNames(displayClass, "article-title")}>{title}</h1>
-    } else {
-      return null
-    }
-  }
-
-  if (title) {
+  if (title && title !== "index") {
+    
     return <h1 class={classNames(displayClass, "article-title")}>{title}</h1>
   }
 

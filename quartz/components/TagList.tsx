@@ -33,6 +33,7 @@ TagList.css = `
   gap: 0.5rem;
   margin: 1rem 0;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .section-li > .section > .tags {
@@ -50,9 +51,10 @@ TagList.css = `
 a.internal.tag-link {
   border-radius: 12px;
   background-color: var(--highlight);
-  padding: 0.25rem 0.6rem;
-  margin: 0;
-  display: inline-block;
+  
+  padding: 0.2rem 0.6rem;
+  margin: 0 0.1rem;
+
 }
 `
 
